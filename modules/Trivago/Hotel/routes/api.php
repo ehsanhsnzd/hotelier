@@ -17,12 +17,12 @@ Route::group(['namespace' => 'Hotel\app\Http\Controllers'], function () {
         Route::put('setting/{id}', 'SettingController@update');
         Route::delete('Setting/{id}', 'SettingController@delete');
 
-        Route::post('hotel/book', 'ReserveController@book');
-        Route::get('hotel', 'ItemController@all');
-        Route::get('hotel/{id}', 'ItemController@get');
-        Route::post('hotel', 'ItemController@set');
-        Route::put('hotel', 'ItemController@edit');
-        Route::delete('hotel/{id}', 'ItemController@delete');
+        Route::post('hotel/book', 'ReserveController@book')->name('bookItem');
+        Route::get('hotel', 'ItemController@all')->name('allItem');
+        Route::get('hotel/{id}', 'ItemController@get')->name('getItem');
+        Route::post('hotel', 'ItemController@set')->name('setItem');
+        Route::put('hotel', 'ItemController@edit')->name('updateItem');
+        Route::delete('hotel/{id}', 'ItemController@delete')->name('deleteItem');
 
 
     });

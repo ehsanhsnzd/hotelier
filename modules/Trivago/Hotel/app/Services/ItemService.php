@@ -24,7 +24,7 @@ class ItemService
 
     public function get($request)
     {
-        return $this->repo->find($request['id'])
+        return $this->repo->fetch($request['id'],['location'])
             ->toArray();
     }
 
@@ -46,7 +46,8 @@ class ItemService
         $this->repo->update($request['id'],$request);
         $this->repo->find($request['id'])
             ->location()->first()->update($request['location']);
-        return [];
+
+        return $this->repo->fetch($request['id'],['location'])->toArray();
     }
 
     /** delete item
