@@ -52,6 +52,6 @@ class UpdateItemRequest extends FormRequest
 
     public function getData()
     {
-        return $this->only('id','title','description');
+        return $this->only('id','name','rating','category','image','reputation','price','availability','location');
     }
 }

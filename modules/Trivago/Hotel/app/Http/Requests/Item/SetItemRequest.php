@@ -27,7 +27,10 @@ class SetItemRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => ['required','string',Rule::notIn( ['free','offer','book','website'])],
+            'name' => ['required','string', function ($attribute, $value, $fail) {
+                    foreach (["free","Offer","Book","Website"] as $word)
+                        if (stripos($value, $word) !== false)
+                            $fail($attribute . ' contain invalid word.');}],
             'rating' => 'required|numeric|between:0,5',
             'category' => 'required|string|exists:item_categories,name',
             'image' => 'required|string|url',
@@ -42,12 +45,6 @@ class SetItemRequest extends FormRequest
         ];
     }
 
-    public function all($keys = null)
-    {
-         $input = $this->input();
-         $input['name'] = strtolower($this->input('name'));
-         return $input;
-    }
 
     public function getData()
     {
