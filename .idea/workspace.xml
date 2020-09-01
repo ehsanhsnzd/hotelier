@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6a305cd-f6bd-4c74-90d0-b713a2189278" name="Default Changelist" comment="" />
+    <list default="true" id="e6a305cd-f6bd-4c74-90d0-b713a2189278" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Models/BaseSetting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Models/Setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2014_10_12_000001_create_base_settings_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2014_10_12_000002_create_settings_table.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,17 +133,17 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Reserve" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Reserve" />
+      <recent name="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations" />
       <recent name="$PROJECT_DIR$/modules/Trivago/Hotel/app/Models" />
+      <recent name="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Reserve" />
       <recent name="$PROJECT_DIR$/modules/Trivago/Hotel/database" />
       <recent name="$PROJECT_DIR$/modules/Trivago/Hotel/routes" />
-      <recent name="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http" />
     </key>
   </component>
   <component name="RunManager">
@@ -156,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598896491700</updated>
       <workItem from="1598896492785" duration="7244000" />
-      <workItem from="1598940467736" duration="25804000" />
+      <workItem from="1598940467736" duration="26081000" />
     </task>
     <task id="LOCAL-00001" summary="create reservation">
       <created>1598954126220</created>
@@ -200,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598969847514</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add postman">
+      <created>1598973625141</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598973625141</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +224,8 @@
     <MESSAGE value="add factory" />
     <MESSAGE value="fix get &amp; item availability" />
     <MESSAGE value="add test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test" />
+    <MESSAGE value="add postman" />
+    <option name="LAST_COMMIT_MESSAGE" value="add postman" />
   </component>
   <component name="WindowStateProjectService">
     <state x="282" y="40" width="1084" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598958701768">
@@ -230,10 +243,10 @@
     </state>
     <state x="451" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/70.27.1296.741@70.27.1296.741" timestamp="1598903385246" />
     <state x="452" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598956940460" />
-    <state x="229" y="27" width="970" height="741" key="CommitChangelistDialog2" timestamp="1598969847478">
+    <state x="229" y="27" width="970" height="741" key="CommitChangelistDialog2" timestamp="1598973625104">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="229" y="27" width="970" height="741" key="CommitChangelistDialog2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598969847478" />
+    <state x="229" y="27" width="970" height="741" key="CommitChangelistDialog2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598973625104" />
     <state x="452" y="312" width="523" height="178" key="ComposerInitDialogKey" timestamp="1598941185431">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
