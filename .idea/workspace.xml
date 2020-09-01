@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6a305cd-f6bd-4c74-90d0-b713a2189278" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ItemTest.php" afterDir="false" />
-    </list>
+    <list default="true" id="e6a305cd-f6bd-4c74-90d0-b713a2189278" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598896491700</updated>
       <workItem from="1598896492785" duration="7244000" />
-      <workItem from="1598940467736" duration="25159000" />
+      <workItem from="1598940467736" duration="25804000" />
     </task>
     <task id="LOCAL-00001" summary="create reservation">
       <created>1598954126220</created>
@@ -195,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598969819128</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add test">
+      <created>1598969847514</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598969847514</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,10 +209,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create reservation" />
     <MESSAGE value="fix item requests" />
-    <MESSAGE value="add test" />
     <MESSAGE value="add factory" />
     <MESSAGE value="fix get &amp; item availability" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix get &amp; item availability" />
+    <MESSAGE value="add test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="282" y="40" width="1084" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598958701768">
@@ -225,10 +230,10 @@
     </state>
     <state x="451" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/70.27.1296.741@70.27.1296.741" timestamp="1598903385246" />
     <state x="452" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598956940460" />
-    <state x="229" y="27" width="970" height="741" key="CommitChangelistDialog2" timestamp="1598969819052">
+    <state x="229" y="27" width="970" height="741" key="CommitChangelistDialog2" timestamp="1598969847478">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="229" y="27" width="970" height="741" key="CommitChangelistDialog2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598969819052" />
+    <state x="229" y="27" width="970" height="741" key="CommitChangelistDialog2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598969847478" />
     <state x="452" y="312" width="523" height="178" key="ComposerInitDialogKey" timestamp="1598941185431">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -243,6 +248,10 @@
     </state>
     <state x="296" y="117" width="833" height="568" key="NewPhpClassDialog/70.27.1296.741@70.27.1296.741" timestamp="1598896710228" />
     <state x="298" y="117" key="NewPhpClassDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598956030826" />
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598969850755">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598969850755" />
     <state x="616" y="275" width="196" height="251" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1598940901823">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
