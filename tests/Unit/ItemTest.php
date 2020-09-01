@@ -2,11 +2,12 @@
 
 namespace Tests\Unit;
 
+use Carbon\Carbon;
 use Hotel\app\Models\Item;
 use Hotel\app\Models\Location;
 use Tests\TestCase;
 
-class ExampleTest extends TestCase
+class ItemTest extends TestCase
 {
     protected $itemId;
 
@@ -69,10 +70,39 @@ class ExampleTest extends TestCase
     public function testGetItem()
     {
         $item = $this->createItem();
-//        dd($this->get(route('getItem',$item->id),['Accept'=>'application/json'])->json());
         $this->get(route('getItem',$item->id),['Accept'=>'application/json'])
             ->assertStatus(200)
-            ->assertJson(['data'=>(object)$item->toArray()]);
+            ->assertJson(['data'=>$item->toArray()]);
+    }
+
+    public function testGetAllItem()
+    {
+        $this->createItem();
+        $this->get(route('allItem'),['Accept'=>'application/json'])
+            ->assertStatus(200);
+    }
+
+    public function testDeleteItem()
+    {
+        $item = $this->createItem();
+        $this->delete(route('deleteItem',$item->id),['Accept'=>'application/json'])
+            ->assertStatus(200)
+            ->assertJson([]);
+
+    }
+
+    public function testBookItem()
+    {
+        $item = $this->createItem();
+        $data = [
+            'item_id' => $item->id,
+            'arrival_date' => Carbon::now()->toDateString(),
+            'departure_date' => Carbon::now()->toDateString(),
+        ];
+
+        $this->post(route('bookItem'),$data,['Accept'=>'application/json'])
+            ->assertStatus(200)
+            ->assertJson(['data'=>$data]);
     }
 
     public function createItem()

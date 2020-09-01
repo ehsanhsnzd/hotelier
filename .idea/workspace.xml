@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6a305cd-f6bd-4c74-90d0-b713a2189278" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3261071f-824f-47ed-83c1-062b66d16fa9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3261071f-824f-47ed-83c1-062b66d16fa9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/DeleteItemRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/DeleteItemRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Services/ItemService.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Services/ItemService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Services/ReserveService.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Services/ReserveService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2020_08_31_000004_create_items_location_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2020_08_31_000004_create_items_location_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ItemTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +158,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598896491700</updated>
       <workItem from="1598896492785" duration="7244000" />
-      <workItem from="1598940467736" duration="24806000" />
+      <workItem from="1598940467736" duration="25159000" />
     </task>
     <task id="LOCAL-00001" summary="create reservation">
       <created>1598954126220</created>
@@ -194,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598965301174</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix get &amp; item availability">
+      <created>1598969819128</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598969819128</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +206,8 @@
     <MESSAGE value="fix item requests" />
     <MESSAGE value="add test" />
     <MESSAGE value="add factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="add factory" />
+    <MESSAGE value="fix get &amp; item availability" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix get &amp; item availability" />
   </component>
   <component name="WindowStateProjectService">
     <state x="282" y="40" width="1084" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598958701768">
@@ -213,20 +215,20 @@
     </state>
     <state x="313" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1296.741@70.27.1296.741" timestamp="1598898934269" />
     <state x="282" y="40" width="1084" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598958701768" />
-    <state x="72" y="27" width="550" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598945033307">
+    <state x="72" y="27" width="550" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598969695400">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="70" y="27" width="654" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/70.27.1296.741@70.27.1296.741" timestamp="1598900378912" />
-    <state x="72" y="27" width="550" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598945033307" />
+    <state x="72" y="27" width="550" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598969695400" />
     <state x="452" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598956940460">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="451" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/70.27.1296.741@70.27.1296.741" timestamp="1598903385246" />
     <state x="452" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598956940460" />
-    <state x="229" y="27" width="970" height="741" key="CommitChangelistDialog2" timestamp="1598965301111">
+    <state x="229" y="27" width="970" height="741" key="CommitChangelistDialog2" timestamp="1598969819052">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="229" y="27" width="970" height="741" key="CommitChangelistDialog2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598965301111" />
+    <state x="229" y="27" width="970" height="741" key="CommitChangelistDialog2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598969819052" />
     <state x="452" y="312" width="523" height="178" key="ComposerInitDialogKey" timestamp="1598941185431">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
