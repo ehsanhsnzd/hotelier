@@ -4,7 +4,10 @@
 namespace Hotel\app\Http\Controllers;
 
 
+use Hotel\app\Http\Requests\Item\DeleteItemRequest;
+use Hotel\app\Http\Requests\Item\GetItemRequest;
 use Hotel\app\Http\Requests\Item\SetItemRequest;
+use Hotel\app\Http\Requests\Item\UpdateItemRequest;
 use Hotel\app\Services\ItemService;
 use Illuminate\Http\Request;
 
@@ -20,7 +23,16 @@ class ItemController extends BaseController
         $this->service= $service ?? new ItemService();
     }
 
-    public function get(Request $request)
+    public function all(Request $request)
+    {
+        try{
+            return $this->setMetaData($this->service->all())->successResponse();
+        }catch (\Exception $exception){
+            return $this->handleException($request,$exception);
+        }
+    }
+
+    public function get(GetItemRequest $request)
     {
         try{
             return $this->setMetaData($this->service->get($request))->successResponse();
@@ -32,22 +44,22 @@ class ItemController extends BaseController
     public function set(SetItemRequest $request)
     {
         try{
-            return $this->setMetaData($this->service->set($request->all()))->successResponse();
+            return $this->setMetaData($this->service->set($request->getData()))->successResponse();
         }catch (\Exception $exception){
             return $this->handleException($request,$exception);
         }
     }
 
-    public function edit(Request $request)
+    public function edit(UpdateItemRequest $request)
     {
         try{
-            return $this->setMetaData($this->service->edit($request->all()))->successResponse();
+            return $this->setMetaData($this->service->edit($request->getData()))->successResponse();
         }catch (\Exception $exception){
             return $this->handleException($request,$exception);
         }
     }
 
-    public function delete(Request $request)
+    public function delete(DeleteItemRequest $request)
     {
         try{
             $this->service->delete($request);

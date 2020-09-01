@@ -19,7 +19,7 @@ class ItemService
 
     public function all()
     {
-        return $this->repo->all();
+        return $this->repo->all()->toArray();
     }
 
     public function get($request)
@@ -41,9 +41,11 @@ class ItemService
      * @param $request
      * @return mixed|void
      */
-    public function update($request)
+    public function edit($request)
     {
         $this->repo->update($request['id'],$request);
+        $this->repo->find($request['id'])
+            ->location()->first()->update($request['location']);
         return [];
     }
 
@@ -55,4 +57,5 @@ class ItemService
     {
         return $this->repo->delete($request['id']);
     }
+
 }
