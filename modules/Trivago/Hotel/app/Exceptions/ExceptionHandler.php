@@ -74,7 +74,6 @@ trait ExceptionHandler
      */
     private function handle(\Exception $e , $message , $httpCode , $statusCode , $status)
     {
-        return $e;
         return $this->customResponse($message,$status,$httpCode,$statusCode);
     }
 

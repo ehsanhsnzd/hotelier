@@ -16,7 +16,7 @@ class CreateItemsReserveTable extends Migration
         Schema::create('item_reserve', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('item_id');
-            $table->foreign('item_id')->references('id')->on('hotels');
+            $table->foreign('item_id')->references('id')->on('items')->onDelete('cascade');
             $table->timestamp('arrival_date');
             $table->timestamp('departure_date');
             $table->timestamps();

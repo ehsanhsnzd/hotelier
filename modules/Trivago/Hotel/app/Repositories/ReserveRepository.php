@@ -4,10 +4,10 @@
 namespace Hotel\app\Repositories;
 
 
-use Hotel\app\Models\Hotel;
+use Hotel\app\Models\Reserve;
 use Illuminate\Database\Eloquent\Collection;
 
-class HotelRepository implements Repository
+class ReserveRepository implements Repository
 {
 
     /**
@@ -16,7 +16,7 @@ class HotelRepository implements Repository
     private $model;
 
     public function __construct(){
-        $this->model = new Hotel();
+        $this->model = new Reserve();
     }
 
     public function find(int $id)
@@ -57,5 +57,10 @@ class HotelRepository implements Repository
     public function where(array $params)
     {
         // TODO: Implement where() method.
+    }
+
+    public function whereBetween($field,$param)
+    {
+        return $this->model->whereBetween($field,$param);
     }
 }

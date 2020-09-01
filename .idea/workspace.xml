@@ -1,15 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6a305cd-f6bd-4c74-90d0-b713a2189278" name="Default Changelist" comment="" />
+    <list default="true" id="e6a305cd-f6bd-4c74-90d0-b713a2189278" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3261071f-824f-47ed-83c1-062b66d16fa9/storage_v2/_src_/schema/access.ZLUnqw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3261071f-824f-47ed-83c1-062b66d16fa9/storage_v2/_src_/schema/ddh.6IMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3261071f-824f-47ed-83c1-062b66d16fa9/storage_v2/_src_/schema/ddh_test.iarN9A.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3261071f-824f-47ed-83c1-062b66d16fa9/storage_v2/_src_/schema/ddhlumen.xWyF9Q.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3261071f-824f-47ed-83c1-062b66d16fa9/storage_v2/_src_/schema/hotel.tMHtBQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/ItemFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Controllers/ReserveController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Reserve/SetReserveRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Models/BaseSetting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Models/Reserve.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Models/Setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Services/ReserveService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2014_10_12_000002_create_settings_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/ItemTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3261071f-824f-47ed-83c1-062b66d16fa9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3261071f-824f-47ed-83c1-062b66d16fa9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hotel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hotel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Exceptions/ExceptionHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Exceptions/ExceptionHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Controllers/HotelController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Controllers/ItemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Controllers/ItemController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/DeleteItemRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/DeleteItemRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/GetItemRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/GetItemRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/SetItemRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/SetItemRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/UpdateItemRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/UpdateItemRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Models/Hotel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Repositories/HotelRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Repositories/ReserveRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Services/HotelService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Services/ItemService.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Services/ItemService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2020_08_31_000001_create_hotels_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2014_10_12_000001_create_base_settings_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2020_08_31_000004_create_items_location_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2020_08_31_000004_create_items_location_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2020_08_31_000005_create_items_reserve_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2020_08_31_000005_create_items_reserve_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -117,6 +159,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gsHgW5pjvKptXLWEgWBzwii3Ur" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -125,16 +168,17 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/Trivago/Hotel/database" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hotel-vue" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations" />
+      <recent name="$PROJECT_DIR$/modules/Trivago/Hotel/app/Models" />
+      <recent name="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Reserve" />
       <recent name="$PROJECT_DIR$/modules/Trivago/Hotel/database" />
       <recent name="$PROJECT_DIR$/modules/Trivago/Hotel/routes" />
-      <recent name="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -151,41 +195,133 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598896491700</updated>
-      <workItem from="1598896492785" duration="8160000" />
+      <workItem from="1598896492785" duration="7244000" />
+      <workItem from="1598940467736" duration="26081000" />
+      <workItem from="1598986019591" duration="434000" />
+      <workItem from="1598998912091" duration="1751000" />
     </task>
+    <task id="LOCAL-00001" summary="create reservation">
+      <created>1598954126220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598954126221</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix item requests">
+      <created>1598954323871</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598954323871</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add test">
+      <created>1598965288529</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598965288529</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add factory">
+      <created>1598965301174</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598965301174</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix get &amp; item availability">
+      <created>1598969819128</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598969819128</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add test">
+      <created>1598969847514</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598969847514</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add postman">
+      <created>1598973625141</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598973625141</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create reservation" />
+    <MESSAGE value="fix item requests" />
+    <MESSAGE value="add factory" />
+    <MESSAGE value="fix get &amp; item availability" />
+    <MESSAGE value="add test" />
+    <MESSAGE value="add postman" />
+    <option name="LAST_COMMIT_MESSAGE" value="add postman" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598898934269">
+    <state x="313" y="59" width="1084" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598986127134">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="313" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1296.741@70.27.1296.741" timestamp="1598898934269" />
-    <state x="70" y="27" width="654" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598900378912">
-      <screen x="70" y="27" width="1296" height="741" />
+    <state x="313" y="59" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1296.741@70.27.1296.741" timestamp="1598986127134" />
+    <state x="282" y="40" width="1084" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598958701768" />
+    <state x="72" y="27" width="550" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598969695400">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="70" y="27" width="654" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/70.27.1296.741@70.27.1296.741" timestamp="1598900378912" />
-    <state x="451" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598903385246">
-      <screen x="70" y="27" width="1296" height="741" />
+    <state x="72" y="27" width="550" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598969695400" />
+    <state x="452" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598956940460">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="451" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/70.27.1296.741@70.27.1296.741" timestamp="1598903385246" />
-    <state x="501" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598896677348">
+    <state x="452" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598956940460" />
+    <state x="229" y="27" width="970" height="741" key="CommitChangelistDialog2" timestamp="1598973625104">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="229" y="27" width="970" height="741" key="CommitChangelistDialog2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598973625104" />
+    <state x="452" y="312" width="523" height="178" key="ComposerInitDialogKey" timestamp="1598941185431">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="452" y="312" width="523" height="178" key="ComposerInitDialogKey/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598941185431" />
+    <state x="501" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598980087002">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="501" y="155" width="424" height="491" key="FileChooserDialogImpl/70.27.1296.741@70.27.1296.741" timestamp="1598896677348" />
-    <state x="296" y="117" width="833" height="568" key="NewPhpClassDialog" timestamp="1598896710228">
+    <state x="501" y="155" width="424" height="491" key="FileChooserDialogImpl/70.27.1296.741@70.27.1296.741" timestamp="1598980087002" />
+    <state x="502" y="155" key="FileChooserDialogImpl/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598941540320" />
+    <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1598986114566">
       <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="263" height="500" key="HiddenNamespacesPopup/70.27.1296.741@70.27.1296.741" timestamp="1598986114566" />
+    <state x="298" y="117" width="833" height="568" key="NewPhpClassDialog" timestamp="1598956030826">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="296" y="117" width="833" height="568" key="NewPhpClassDialog/70.27.1296.741@70.27.1296.741" timestamp="1598896710228" />
-    <state x="615" y="275" width="196" height="251" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1598898957696">
-      <screen x="70" y="27" width="1296" height="741" />
+    <state x="298" y="117" key="NewPhpClassDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598956030826" />
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598969850755">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598969850755" />
+    <state x="616" y="275" width="196" height="251" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1598940901823">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="615" y="275" width="196" height="251" key="com.intellij.database.actions.DdlActions$CreateObject$1/70.27.1296.741@70.27.1296.741" timestamp="1598898957696" />
+    <state x="616" y="275" key="com.intellij.database.actions.DdlActions$CreateObject$1/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598940901823" />
     <state x="595" y="287" width="367" height="255" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1598899147861">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="595" y="287" width="367" height="255" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/70.27.1296.741@70.27.1296.741" timestamp="1598899147861" />
+    <state x="553" y="169" width="602" height="464" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1598969312344">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="553" y="169" width="602" height="464" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598969312344" />
+    <state x="410" y="136" width="717" height="522" key="find.popup" timestamp="1598945320924">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="410" y="136" width="717" height="522" key="find.popup/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598945320924" />
   </component>
 </project>

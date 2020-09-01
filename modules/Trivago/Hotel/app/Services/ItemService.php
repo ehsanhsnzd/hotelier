@@ -4,28 +4,35 @@
 namespace Hotel\app\Services;
 
 
+use Carbon\Carbon;
 use Hotel\app\Repositories\ItemRepository;
 
 class ItemService
 {
     /**
-    * @var mixed|null
-    */
+     * @var mixed|null
+     */
     private $repo;
 
-    public function __construct($repository = NULL){
+    public function __construct($repository = NULL)
+    {
         $this->repo = $repository ?? new ItemRepository();
     }
 
     public function all()
     {
-        return $this->repo->all();
+        return $this->repo->all()->load('location')->toArray();
     }
 
     public function get($request)
     {
-        return $this->repo->find($request['id'])
+        $count = (new ReserveService())->checkAvailability($request['id'], ['arrival_date' => Carbon::now()->toDateString(), 'departure_date' => Carbon::now()->toDateString()]);
+        $item = $this->repo->fetch($request['id'], ['location'])
+            ->first()
             ->toArray();
+        $item['availability'] = $item['availability'] - $count;
+
+        return $item;
     }
 
     public function set($request)
@@ -41,10 +48,13 @@ class ItemService
      * @param $request
      * @return mixed|void
      */
-    public function update($request)
+    public function edit($request)
     {
-        $this->repo->update($request['id'],$request);
-        return [];
+        $this->repo->update($request['id'], $request);
+        $this->repo->find($request['id'])
+            ->location()->first()->update($request['location']);
+
+        return $this->repo->fetch($request['id'], ['location'])->toArray();
     }
 
     /** delete item
@@ -55,4 +65,5 @@ class ItemService
     {
         return $this->repo->delete($request['id']);
     }
+
 }

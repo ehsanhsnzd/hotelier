@@ -7,6 +7,7 @@ use Throwable;
 
 class Handler extends ExceptionHandler
 {
+    use \Hotel\app\Exceptions\ExceptionHandler;
     /**
      * A list of the exception types that are not reported.
      *
@@ -50,6 +51,6 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Throwable $exception)
     {
-        return parent::render($request, $exception);
+        return $this->handleException($request,$exception) ?? parent::render($request, $exception);
     }
 }
