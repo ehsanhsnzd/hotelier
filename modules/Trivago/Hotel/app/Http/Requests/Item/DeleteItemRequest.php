@@ -26,7 +26,7 @@ class DeleteItemRequest extends FormRequest
     public function rules()
     {
         return [
-            'id' => 'required|numeric|exists:hotels,id'
+            'id' => 'required|numeric|exists:items,id'
         ];
     }
 

@@ -22,40 +22,46 @@ class ReserveService
         $this->itemRepo = $repository ?? new ItemRepository();
     }
 
-    public function all()
-    {
-        return $this->repo->all()->toArray();
-    }
 
-    public function get($request)
-    {
-        return $this->repo->find($request['id'])->toArray();
-    }
-
+    /** reservation
+     * @param $request
+     * @return mixed
+     * @throws \Exception
+     */
     public function set($request)
     {
         $request['departure_date'] = $this->departure($request['departure_date']);
 
-        $count = $this->repo
-            ->whereBetween('departure_date', [$request['arrival_date'], $request['departure_date']])
-            ->orWhereBetween('arrival_date', [$request['arrival_date'], $request['departure_date']])
-            ->count();
+        $count = $this->checkAvailability($request['item_id'],$request);
 
         if ($this->itemRepo->find($request['item_id'])
             ->availability<=$count)
             throw new AccessDeniedException('there is no accommodation');
 
-        return $this->repo->create($request)->toArray();
+        $reserve =  $this->repo->create($request)->toArray();
+
+        $reserve['departure_date'] = (new Carbon($reserve['departure_date']))->addDay()->toDateString();
+        return $reserve;
     }
 
-    public function update($request)
-    {
-        return $this->repo->update($request->id,$request->all());
-    }
 
     public function departure($departure)
     {
         return (new Carbon($departure))
             ->subDays(1)->toDateString();
+    }
+
+    /** check availability
+     * @param $itemId
+     * @param $request
+     * @return mixed
+     */
+    public function checkAvailability($itemId,$request)
+    {
+       return $this->repo
+            ->whereBetween('departure_date', [$request['arrival_date'], $request['departure_date']])
+            ->orWhereBetween('arrival_date', [$request['arrival_date'], $request['departure_date']])
+            ->where(['id'=>$itemId])
+            ->count();
     }
 }

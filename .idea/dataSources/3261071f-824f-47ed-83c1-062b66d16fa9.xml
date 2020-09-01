@@ -2268,6 +2268,7 @@ role_id</ColNames>
       <ColNames>item_id</ColNames>
       <RefTableName>items</RefTableName>
       <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
     </foreign-key>
     <column id="581" parent="315" name="id">
       <Position>1</Position>
