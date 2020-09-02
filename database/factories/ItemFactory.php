@@ -24,6 +24,7 @@ $factory->define(\Hotel\app\Models\Item::class, function (Faker $faker) {
         'category' => 'hotel',
         'image' => $faker->url,
         'reputation' => $faker->numberBetween(0,1000),
+        'reputationBadge' => 'green',
         'price' => $faker->numberBetween(0,500),
         'availability' => $faker->numberBetween(0,20),
     ];

@@ -20,6 +20,7 @@ class CreateItemsTable extends Migration
             $table->string('category');
             $table->string('image');
             $table->string('reputation');
+            $table->string('reputationBadge');
             $table->integer('price');
             $table->integer('availability');
             $table->timestamps();

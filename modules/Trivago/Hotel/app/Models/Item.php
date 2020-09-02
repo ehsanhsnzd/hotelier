@@ -6,7 +6,7 @@ namespace Hotel\app\Models;
 
 class Item extends BaseModel
 {
-    protected $fillable= ['name','rating','category','image','reputation','price','availability'];
+    protected $fillable= ['name','rating','category','image','reputation','price','reputationBadge','availability'];
 
 
     /** hotel location

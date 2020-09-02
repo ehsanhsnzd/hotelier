@@ -37,6 +37,13 @@ class ItemService
 
     public function set($request)
     {
+        if($request['reputation'] <= 799)
+            $request['reputationBadge'] = 'yellow';
+        elseif($request['reputation'] <= 500)
+            $request['reputationBadge'] = 'red';
+        else
+            $request['reputationBadge'] = 'green';
+
         $item = $this->repo->create($request);
         $item->location()->create($request['location']);
 

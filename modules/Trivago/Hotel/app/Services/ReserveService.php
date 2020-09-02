@@ -30,6 +30,7 @@ class ReserveService
      */
     public function set($request)
     {
+        if($request['arrival_date']!=$request['departure_date'])
         $request['departure_date'] = $this->departure($request['departure_date']);
 
         $count = $this->checkAvailability($request['item_id'],$request);

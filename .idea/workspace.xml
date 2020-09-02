@@ -1,45 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6a305cd-f6bd-4c74-90d0-b713a2189278" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3261071f-824f-47ed-83c1-062b66d16fa9/storage_v2/_src_/schema/access.ZLUnqw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3261071f-824f-47ed-83c1-062b66d16fa9/storage_v2/_src_/schema/ddh.6IMBAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3261071f-824f-47ed-83c1-062b66d16fa9/storage_v2/_src_/schema/ddh_test.iarN9A.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3261071f-824f-47ed-83c1-062b66d16fa9/storage_v2/_src_/schema/ddhlumen.xWyF9Q.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3261071f-824f-47ed-83c1-062b66d16fa9/storage_v2/_src_/schema/hotel.tMHtBQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/ItemFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Controllers/ReserveController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Reserve/SetReserveRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Models/BaseSetting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Models/Reserve.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Models/Setting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Services/ReserveService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2014_10_12_000002_create_settings_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/ItemTest.php" afterDir="false" />
+    <list default="true" id="e6a305cd-f6bd-4c74-90d0-b713a2189278" name="Default Changelist" comment="Merge branch 'master' of https://github.com/ehsanhsnzd/hotelier&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/3261071f-824f-47ed-83c1-062b66d16fa9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3261071f-824f-47ed-83c1-062b66d16fa9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hotel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hotel.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Exceptions/ExceptionHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Exceptions/ExceptionHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Controllers/HotelController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Controllers/ItemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Controllers/ItemController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/DeleteItemRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/DeleteItemRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/GetItemRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/GetItemRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/SetItemRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/SetItemRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/UpdateItemRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Http/Requests/Item/UpdateItemRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Models/Hotel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Repositories/HotelRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Repositories/ReserveRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Services/HotelService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ItemFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ItemFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Models/Item.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Models/Item.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Services/ItemService.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/app/Services/ItemService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2020_08_31_000001_create_hotels_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2014_10_12_000001_create_base_settings_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2020_08_31_000004_create_items_location_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2020_08_31_000004_create_items_location_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2020_08_31_000005_create_items_reserve_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2020_08_31_000005_create_items_reserve_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2020_08_31_000002_create_items_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Trivago/Hotel/database/migrations/2020_08_31_000002_create_items_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +166,8 @@
       <workItem from="1598896492785" duration="7244000" />
       <workItem from="1598940467736" duration="26081000" />
       <workItem from="1598986019591" duration="434000" />
-      <workItem from="1598998912091" duration="1751000" />
+      <workItem from="1598998912091" duration="2062000" />
+      <workItem from="1599038915446" duration="1078000" />
     </task>
     <task id="LOCAL-00001" summary="create reservation">
       <created>1598954126220</created>
@@ -249,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598973625141</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge branch 'master' of https://github.com/ehsanhsnzd/hotelier&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1599004075762</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599004075762</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +238,8 @@
     <MESSAGE value="fix get &amp; item availability" />
     <MESSAGE value="add test" />
     <MESSAGE value="add postman" />
-    <option name="LAST_COMMIT_MESSAGE" value="add postman" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/ehsanhsnzd/hotelier&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/ehsanhsnzd/hotelier&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="59" width="1084" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598986127134">
@@ -280,9 +257,10 @@
     </state>
     <state x="451" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/70.27.1296.741@70.27.1296.741" timestamp="1598903385246" />
     <state x="452" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598956940460" />
-    <state x="229" y="27" width="970" height="741" key="CommitChangelistDialog2" timestamp="1598973625104">
-      <screen x="72" y="27" width="1294" height="741" />
+    <state x="70" y="27" width="1286" height="741" key="CommitChangelistDialog2" timestamp="1599004087187">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
+    <state x="70" y="27" width="1286" height="741" key="CommitChangelistDialog2/70.27.1296.741@70.27.1296.741" timestamp="1599004087187" />
     <state x="229" y="27" width="970" height="741" key="CommitChangelistDialog2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598973625104" />
     <state x="452" y="312" width="523" height="178" key="ComposerInitDialogKey" timestamp="1598941185431">
       <screen x="72" y="27" width="1294" height="741" />
@@ -302,9 +280,10 @@
     </state>
     <state x="296" y="117" width="833" height="568" key="NewPhpClassDialog/70.27.1296.741@70.27.1296.741" timestamp="1598896710228" />
     <state x="298" y="117" key="NewPhpClassDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598956030826" />
-    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598969850755">
-      <screen x="72" y="27" width="1294" height="741" />
+    <state x="318" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1599004130779">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
+    <state x="318" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1296.741@70.27.1296.741" timestamp="1599004130779" />
     <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1598969850755" />
     <state x="616" y="275" width="196" height="251" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1598940901823">
       <screen x="72" y="27" width="1294" height="741" />

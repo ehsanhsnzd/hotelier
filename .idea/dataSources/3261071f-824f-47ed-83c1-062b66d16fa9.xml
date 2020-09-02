@@ -2025,6 +2025,7 @@ user_id</ColNames>
       <ColNames>item_id</ColNames>
       <RefTableName>items</RefTableName>
       <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
     </foreign-key>
     <column id="543" parent="316" name="id">
       <Position>1</Position>
