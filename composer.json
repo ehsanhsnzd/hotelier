@@ -61,11 +61,11 @@
             "@php artisan key:generate --ansi"
         ],
         "post-install-cmd": [
+            "php artisan config:clear",
+            "php artisan config:cache",
             "php artisan key:generate",
             "php artisan migrate --force",
             "php artisan db:seed --class=Hotel\\\\database\\\\seeds\\\\DatabaseSeeder",
-            "php artisan config:clear",
-            "php artisan config:cache",
             "php artisan test"
         ]
     }
