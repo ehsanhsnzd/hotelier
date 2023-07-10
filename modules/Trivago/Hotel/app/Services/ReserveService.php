@@ -17,9 +17,9 @@ class ReserveService
     private $repo;
     private $itemRepo;
 
-    public function __construct($repository = NULL){
-        $this->repo = $repository ?? new ReserveRepository();
-        $this->itemRepo = $repository ?? new ItemRepository();
+    public function __construct() {
+        $this->repo = new ReserveRepository();
+        $this->itemRepo = new ItemRepository();
     }
 
 
@@ -30,18 +30,20 @@ class ReserveService
      */
     public function set($request)
     {
-        if($request['arrival_date']!=$request['departure_date'])
-        $request['departure_date'] = $this->departure($request['departure_date']);
+        if ($request['arrival_date'] != $request['departure_date']) {
+            $request['departure_date'] = $this->departure($request['departure_date']);
+        }
+        
+        $count = $this->checkAvailability($request['item_id'], $request);
 
-        $count = $this->checkAvailability($request['item_id'],$request);
-
-        if ($this->itemRepo->find($request['item_id'])
-            ->availability<=$count)
+        if ($this->itemRepo->find($request['item_id'])->availability <= $count) {
             throw new AccessDeniedException('there is no accommodation');
-
+        }
+        
         $reserve =  $this->repo->create($request)->toArray();
 
         $reserve['departure_date'] = (new Carbon($reserve['departure_date']))->addDay()->toDateString();
+        
         return $reserve;
     }
 
